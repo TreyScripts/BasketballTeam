@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC93C1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="317dp"
+        android:layout_height="49dp"
+        android:text="Basketball Team"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter points earned by Art"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/edtNum1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/q5"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter points earned by Eli"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum4" />
+
+    <TextView
+        android:id="@+id/q4"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter points earned by Dan"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum3" />
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter points earned by Bob"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum1" />
+
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="195dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="108dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter points earned by Cal"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum2" />
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/q2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q1" />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/q3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q2" />
+
+    <EditText
+        android:id="@+id/edtNum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/q4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q3" />
+
+    <EditText
+        android:id="@+id/edtNum4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/q5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q4" />
+
+    <EditText
+        android:id="@+id/edtNum5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="101dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/q5" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="44dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnClear"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum5" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="44dp"
+        android:text="Clear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
